@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Can you muscle up?</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Can you muscle up?</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" type = "module"></script>
+
+        <div class="header">
+            <div id="title">
+                <h1>Do you have the strength to Muscle Up?</h1>
+            </div>
+
+            <div class="instructions">
+                Input your data below to find out!<br><br>
+            </div>
+
+            <div id="body-weight-data">
+                <label for="bWeight">Bodyweight:</label>
+                <input type="number" id="bWeight" name="bWeight" min=0><br>
+
+                <div class="half-break"><br></div>
+
+                <label for="oRMWP">One rep max weighted pullup:</label>
+                <input type="number" id="oRMWP" name="oRMWP"><br>
+
+                <div class="half-break"><br></div>
+
+                <!--Only one checkmark -->
+                <span>Units:</span>
+                <input type="checkbox" id="lbs" name="lbs" checked>
+                <label for="lbs">lbs</label>
+                <input type="checkbox" id="kgs" name="kgs">
+                <label for="kgs">kgs</label><br><br>
+
+                <button class="button-enter" onclick="handleCalc()">Calculate!</button><br><br>
+        
+            </div>
+
+            <div id="message">*default message*</div><br><br>
+
+            <div id="submit-data">
+                <div class="instructions">
+                    Want to submit your data? Complete the fields below:<br><br>
+                </div>
+
+                <!--Only one checkmark -->
+                <span>Can you do a muscle up?</span>
+                <input type="checkbox" id="yes-mu" name="yes-mu" >
+                <label for="yes-mu">Yes</label>
+                <input type="checkbox" id="no-mu" name="no-mu">
+                <label for="no-mu">No</label><br>
+
+                <div class="half-break"><br></div>
+
+                <div id="muscle-up-reqs">
+                    &emsp;&emsp;*Gymnastics kip ups and crossfit muscle ups do not count, but knee and hip bend are okay.
+                </div>
+
+                <div class="half-break"><br></div>
+
+                <!--Appear only if yes -->
+                <label for="proof-link">Please provide public link to muscle up video for verification (Google Drive, Youtube, etc.)</label>
+                <input type="url" id="proof-link" name="proof-link"><br><br>
+
+                <button class="button-enter">Submit!</button><br><br><br><br>
+
+            </div>
+
+            <div id="video-link">
+                <span>Have you seen the video? Check it out </span>
+                <a href="https://youtu.be/c90yZnUXdQM" target="_blank">here!</a><br><br>
+            </div>
+
+        </div>
+        
+        <div class="footer">
+            <br><br><br><br><br><br>GeekClimberTM xdxdxd
+        </div>
+        
+    </body>
+
+</html>

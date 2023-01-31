@@ -1,0 +1,27 @@
+body {
+    font-family: "Trebuchet MS"
+}
+
+.header {
+    font-size: 2.5vmin
+}
+
+.footer {
+    font-size: 2vmin
+}
+
+.half-break {
+    font-size: 1vmin
+}
+
+.button-enter {
+    background-color: #000000;
+    color:white;
+    font-family: "Trebuchet MS";
+    font-size: 3.5vmin
+}
+
+#muscle-up-reqs {
+    font-size: 2vmin;
+    color: #696969
+}
